@@ -1,22 +1,10 @@
 <?php if (!defined('PmWiki')) exit();
-
-/* pm-pinboard-api.php
- * Pm Pinboard API (a PmWiki recipe for Pinboard (https://pinboard.in) integration)
- *
- * See http://www.pmwiki.org/wiki/Cookbook/PmPinboardAPI 
- * for documentation and latest version.
- *
- * This program is free software; you can redistribute it
- * and/or modify it under the terms of the GNU General
- * Public License as published by the Free Software
- * Foundation; either version 3 of the License, or (at your
- * option) any later version. Available at
- * https://www.gnu.org/licenses/gpl.txt
- *
- * Copyright 2018 Said Achmiz.
- */
-
-$RecipeInfo['PmPinboardAPI']['Version'] = '2018-01-09';
+/** \pm-pinboard-api.php
+  * \Copyright 2018-2021 Said Achmiz
+  * \Licensed under the MIT License
+  * \brief Provides an easy-to-use PmWiki-compatible interface to the Pinboard API.
+  */
+$RecipeInfo['PmPinboardAPI']['Version'] = '2021-12-12';
 
 /*************/
 /* VARIABLES */
